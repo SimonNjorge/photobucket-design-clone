@@ -2,7 +2,7 @@ import AppleIcon from '@mui/icons-material/Apple';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsappIcon from '@mui/icons-material/Whatsapp';
+//import WhatsappIcon from '@mui/icons-material/Whatsapp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
@@ -22,7 +22,6 @@ const Footer = () => {
                     <TwitterIcon color='secondary'  sx={{cursor: 'pointer', '&:hover' : {color: 'blue'}}}/>
                     <InstagramIcon color='secondary'  sx={{cursor: 'pointer', '&:hover' : {color: 'blue'}}}/>
                     <LinkedInIcon color='secondary'  sx={{cursor: 'pointer', '&:hover' : {color: 'blue'}}}/>
-                    <WhatsappIcon color='secondary'  sx={{cursor: 'pointer', '&:hover' : {color: 'blue'}}}/>
                 </div>
             </div>
         </div>
