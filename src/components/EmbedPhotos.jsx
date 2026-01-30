@@ -3,7 +3,7 @@ import assets from '../assets/assets'
 
 const EmbedPhotos = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row  gap-16 justify-center items-center my-40'>
+    <div className='flex flex-col-reverse md:flex-row  gap-16 justify-center items-center my-38'>
         <div className='w-[70vw] md:w-[50vw]'>
             <p className='font-bold text-2xl my-6'>Embed photos in a snap</p>
             <p>

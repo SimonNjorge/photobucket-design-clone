@@ -3,7 +3,7 @@ import assets from '../assets/assets';
 
 const Download = () => {
   return (
-    <div className='flex flex-col p-10 my-10'>
+    <div className='flex flex-col p-10 my-8'>
       <div className='self-center'>
         <p className='text-blue-800 text-center text-xl font-semibold'>Step 2</p>
         <p className='text-3xl font-bold my-8'>Download the app & back up</p>

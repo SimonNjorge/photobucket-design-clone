@@ -23,7 +23,7 @@ const ProtectPlanet = () => {
     }, [sliderImageIndex, Images.length]);
 
   return (
-    <div className='flex flex-col md:flex-row gap-16 justify-center items-center my-30'>
+    <div className='flex flex-col md:flex-row gap-16 justify-center items-center my-28'>
         <div className='max-[530px]:w-[65vw] max-[530px]:h-[65vw] w-[50vw] h-[50vw] md:w-[30vw] md:h-[30vw] bg-purple-900 rotate-z-20 rounded-3xl'>
           <img className='w-full h-full object-cover ' src={Images[sliderImageIndex]} alt="protect planet image" />
         </div>

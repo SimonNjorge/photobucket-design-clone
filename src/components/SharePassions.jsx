@@ -3,7 +3,7 @@ import assets from '../assets/assets'
 
 const SharePassions = () => {
   return (
-    <div className='flex flex-col md:flex-row  gap-16 justify-center items-center my-40'>
+    <div className='flex flex-col md:flex-row  gap-16 justify-center items-center my-38'>
         <div className='max-[530px]:w-[65vw] max-[530px]:h-[65vw] w-[50vw] h-[50vw] md:w-[30vw] md:h-[30vw] bg-gray-300 rotate-z-20 rounded-3xl overflow-hidden'>
           <img className='w-full h-full object-cover -rotate-z-20' src={assets.img_5} alt="share your passions image" />
         </div>

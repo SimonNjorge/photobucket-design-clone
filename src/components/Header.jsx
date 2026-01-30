@@ -4,7 +4,7 @@ import Fingerprint from '@mui/icons-material/Fingerprint'
 
 const Header = () => {
   return (
-    <div className="flex max-[370px]:flex-col justify-between p-4 border-b border-b-gray-300">
+    <div className="flex max-[270px]:flex-col justify-between p-4 border-b border-b-gray-300">
       <div className="flex items-center max-[400px]:my-2">
         <Fingerprint color='secondary' sx={{marginRight: 1, '&:hover': {color: 'blue'}}}/>
         <p className='text-blue-700 font-semibold'>photogallon</p>
