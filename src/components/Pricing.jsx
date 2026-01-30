@@ -4,7 +4,8 @@ import SettingsBackupRestoreIcon from '@mui/icons-material/SettingsBackupRestore
 //import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import BackupTableIcon from '@mui/icons-material/BackupTable';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
-import WhatsappIcon from '@mui/icons-material/Whatsapp';
+//import WhatsappIcon from '@mui/icons-material/Whatsapp';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import GroupsIcon from '@mui/icons-material/Groups';
 //import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 //import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -12,7 +13,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 //import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const Pricing = () => {
-    //console.log(matchMedia('(max-width:600px)'))
 
     const mediumBreakPoint = matchMedia('(max-width:767px)')
     
@@ -95,7 +95,7 @@ const Pricing = () => {
                         <p className='text-xs font-semibold'>Professional photo editor</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
-                        <WhatsappIcon sx={{color: 'blue'}}/>
+                        <FacebookIcon sx={{color: 'blue'}}/>
                         <p className='text-xs font-semibold'>Whatsapp & facebook plugin</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
@@ -155,7 +155,7 @@ const Pricing = () => {
                         <p className='text-xs font-semibold'>Professional photo editor</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
-                        <WhatsappIcon sx={{color: 'blue'}}/>
+                        <FacebookIcon sx={{color: 'blue'}}/>
                         <p className='text-xs font-semibold'>Whatsapp & facebook plugin</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
@@ -216,7 +216,7 @@ const Pricing = () => {
                         <p className='text-xs font-semibold'>Professional photo editor</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
-                        <WhatsappIcon sx={{color: 'blue'}}/>
+                        <FacebookIcon sx={{color: 'blue'}}/>
                         <p className='text-xs font-semibold'>Whatsapp & facebook plugin</p>
                     </div>
                     <div className='flex items-center gap-2 my-1'>
