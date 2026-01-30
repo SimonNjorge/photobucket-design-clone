@@ -1,0 +1,64 @@
+.slider-three-grad-txt,
+.download-grad-txt,
+.slider-two-grad-txt,
+.slider-one-grad-txt{
+    /*
+    clipping the background to the texts shape*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*making text transparent so the shows through*/
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.slider-one-grad-txt{
+    /*fallback color*/
+    color: rgb(229, 27, 229);
+    background-image: linear-gradient(to right, blue, rgb(166, 6, 166));
+}
+
+.slider-two-grad-txt {
+    /*fallback color*/
+    color: rgb(112, 16, 112);
+    background-image: linear-gradient(to right, rgb(173, 6, 173), rgb(226, 126, 226));
+}
+
+.slider-three-grad-txt {
+    /*fallback color*/
+    color: rgb(6, 145, 9);
+    background-image: linear-gradient(to right, rgb(5, 107, 42), rgb(7, 243, 22));
+}
+
+.download-grad-txt{
+    color: blue;
+    background-image: linear-gradient(to right, rgb(5, 5, 137), rgb(2, 169, 52));
+}
+
+.slider-two-bg-btn{
+    background-image: linear-gradient(to bottom right, rgb(71, 3, 71), rgb(210, 131, 206))
+}
+
+.slider-one-bg-btn{
+    background-image: linear-gradient(to bottom right, rgb(3, 0, 182), rgb(164, 222, 231))
+}
+
+.cta-btn:hover .txt-one{
+    transform: translateY(-40px);
+}
+
+.cta-btn:hover .txt-two{
+    bottom: 12px;
+}
+
+.slide_0{
+    transform: translateX(0)
+}
+
+.slide_1{
+    transform: translateX(-100%)
+}
+
+.slide_2{
+    transform: translateX(-200%)
+}
