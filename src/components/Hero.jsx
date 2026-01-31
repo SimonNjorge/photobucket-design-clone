@@ -62,9 +62,9 @@ const Hero = () => {
                 <img className='w-full h-full object-cover rounded' src={sliderOneImages[sliderImageIndex]} alt="Slider one image" />
             </div>
         </div>
-        <div className={`flex flex-col md:flex-row items-center  w-[100vw] gap-4 md:gap-20 pt-6 md:p-6 my-0 ${  animClass } transition-transform duration-1000 ease-in-out max-[400px]:pt-0`}>
+        <div className={`flex flex-col md:flex-row items-center  w-[100vw] gap-4 md:gap-20 md:p-8 my-0 ${  animClass } transition-transform duration-1000 ease-in-out max-[400px]:pt-0`}>
             <div className='w-[100vw] max-md:px-8 md:max-w-[55vw]'>
-                <p className='font-bold text-3xl text-blue-600 my-5 max-sm:mt-0'>
+                <p className='font-bold text-3xl text-blue-600 my-5'>
                     Say hello to our new <span className='slider-two-grad-txt '>free plan!</span>
                 </p>
                 <p>
